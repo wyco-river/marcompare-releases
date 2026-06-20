@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Marcompare Updates</title>
+        <link>https://github.com/LegalMarc/marcompare-releases</link>
+        <description>Marcompare release updates (Sparkle appcast feed).</description>
+        <language>en</language>
+        <!--
+            No published releases yet. build-scripts/update_appcast.sh (in the main repo)
+            appends a signed <item> with the notarized DMG enclosure as each beta ships.
+            Never advertise a version whose DMG asset is not yet uploaded here.
+        -->
+    </channel>
+</rss>
